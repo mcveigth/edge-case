@@ -1,6 +1,6 @@
-import os                                                          ; "something"
+
 # Possible hint? NCC maybe? 🤔
-decoy = ['0x4E', '0x43', '0x43', '\x4E', '\x43', '\x43', 'not_the_flag', 'nothing_here_to_see']
+saydone = ['0x4E', '0x43', '0x43', '\x4E', '\x43', '\x43', 'not_the_flag', 'nothing_here_to_see']
 exec(''.join(list(map(chr, [41, 39, 33, 100, 108, 114, 111, 119, 32, 111, 108, 108, 101, 72, 39, 40, 116, 110, 105, 114, 112]))[::-1]))
 
 
